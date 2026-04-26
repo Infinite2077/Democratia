@@ -7,7 +7,7 @@ const initialState = {
 }
 
 const APIReducer = createSlice({
-  name: "API",
+  name: "api",
   initialState,
   reducers: {},
   extraReducers: (builder)=>{
@@ -33,6 +33,8 @@ export const getMovies = createAsyncThunk("api/getMovies", async(data)=>{
     return response.data
 })
 
-export const {} = APIReducer.a
+export const {} = APIReducer.actions
 
-export default APIReducer
+
+
+export default APIReducer.reducer

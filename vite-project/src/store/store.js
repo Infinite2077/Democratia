@@ -5,7 +5,7 @@ import api from "./APIReducer"
 
 export default configureStore({
     reducer: {
-
+        api
     },
     middleware: (def) => def().concat(logger)
 })
