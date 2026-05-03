@@ -8,7 +8,7 @@ const generalReducer = createSlice({
   name: "general",
   initialState,
   reducers: {}
-})
+});
 
 export const {} = generalReducer.actions
 
